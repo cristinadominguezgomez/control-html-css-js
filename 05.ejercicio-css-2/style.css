@@ -1,0 +1,36 @@
+form {
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+input:required {
+  border-color: red;
+}
+
+fieldset {
+  padding: 1rem;
+  background-color: rgb(219, 216, 216);
+}
+
+fieldset:hover {
+  background-color: grey;
+}
+
+fieldset:first-child,
+fieldset:last-child {
+  border-bottom: 5px solid black;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+}
